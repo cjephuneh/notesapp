@@ -1,8 +1,8 @@
-
+import Note from './Note.js'
 const NoteList = () => {
     return(
         <div className='note'>
-            <h1>hello world there </h1>
+            <Note />
         </div>
     )
 }
