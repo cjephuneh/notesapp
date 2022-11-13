@@ -1,7 +1,14 @@
+import NotesList from './components/NotesList.js'
+import Note from './components/Note.js'
+
 
 const App = () => {
   return(
-    <p>hello this is caleb jephnh</p>
+    <div>
+      <Note />
+      <NotesList />                                     
+       
+    </div>
   )
 }
 
