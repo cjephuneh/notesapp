@@ -1,0 +1,22 @@
+const AddNote = () => {
+    return(
+        <>
+            <div className='note new'>
+                 <textarea 
+                 rows="8"
+                 cols="10" 
+                 placeholder="Type to add a note..."
+                 >
+                 </textarea>
+            </div>
+            <div className="note-footer">
+                <small> 200 remaining</small>
+                <button className='save'>Save</button>
+            </div>
+
+           
+        </>
+    )
+}
+
+export default AddNote
