@@ -45,6 +45,11 @@ textarea:focus{
   border-radius: 15px;
   padding:5px 10px 5px 10px;
 }
+
+.save:Hover{
+  background-color: #ededed;
+  cursor: pointer;
+}
 .note{
   background-color: #fef68a;
   border-radius: 10px;
